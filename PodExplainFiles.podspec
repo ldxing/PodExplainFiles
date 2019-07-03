@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodExplainFiles'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PodExplainFiles.'
+  s.version          = '0.1.2'
+  s.summary          = 'this is a test pod repo for private pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  包含两个文件：YQDeviceManager和YQWeakProxy；这两个文件分别来自文件的目的是什么也不知道啊
                        DESC
 
   s.homepage         = 'https://github.com/ldxing/PodExplainFiles'
