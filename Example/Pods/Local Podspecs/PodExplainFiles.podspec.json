@@ -1,8 +1,8 @@
 {
   "name": "PodExplainFiles",
-  "version": "0.1.0",
-  "summary": "A short description of PodExplainFiles.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "this is a test pod repo for private pod",
+  "description": "包含两个文件：YQDeviceManager和YQWeakProxy；这两个文件分别来自文件的目的是什么也不知道啊",
   "homepage": "https://github.com/ldxing/PodExplainFiles",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ldxing/PodExplainFiles.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

@@ -1,5 +1,5 @@
 PODS:
-  - PodExplainFiles (0.1.0)
+  - PodExplainFiles (0.1.2)
 
 DEPENDENCIES:
   - PodExplainFiles (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PodExplainFiles: ae52f404777f88da34d784a3f3dea5e2bad22902
+  PodExplainFiles: c553c301e321691961f367d69b77139b6832db55
 
 PODFILE CHECKSUM: a12bb79236054af20d614c257b6993155897339c
 
