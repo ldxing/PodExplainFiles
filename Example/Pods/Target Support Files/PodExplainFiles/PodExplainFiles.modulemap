@@ -1,0 +1,6 @@
+framework module PodExplainFiles {
+  umbrella header "PodExplainFiles-umbrella.h"
+
+  export *
+  module * { export * }
+}

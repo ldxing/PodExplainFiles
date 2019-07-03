@@ -1,0 +1,16 @@
+PODS:
+  - PodExplainFiles (0.1.0)
+
+DEPENDENCIES:
+  - PodExplainFiles (from `../`)
+
+EXTERNAL SOURCES:
+  PodExplainFiles:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodExplainFiles: ae52f404777f88da34d784a3f3dea5e2bad22902
+
+PODFILE CHECKSUM: a12bb79236054af20d614c257b6993155897339c
+
+COCOAPODS: 1.7.2

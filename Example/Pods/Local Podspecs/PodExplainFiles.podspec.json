@@ -1,0 +1,22 @@
+{
+  "name": "PodExplainFiles",
+  "version": "0.1.0",
+  "summary": "A short description of PodExplainFiles.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ldxing/PodExplainFiles",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ldxing": "ldxing52mn@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ldxing/PodExplainFiles.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodExplainFiles/Classes/**/*"
+}
