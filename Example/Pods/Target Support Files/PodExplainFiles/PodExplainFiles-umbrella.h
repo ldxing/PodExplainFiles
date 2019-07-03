@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "YQDeviceManager.h"
+#import "YQWeakProxy.h"
 
 FOUNDATION_EXPORT double PodExplainFilesVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodExplainFilesVersionString[];

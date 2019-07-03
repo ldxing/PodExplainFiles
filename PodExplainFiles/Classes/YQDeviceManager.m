@@ -30,11 +30,11 @@
 
 + (NSString *)getCurrentDeviceUUID {
     NSString *device_uuid = [[YQDeviceManager sharedInstance] deviceUUID];
-    if (![device_uuid elementIsEffectiveString]) {
+    if (device_uuid == nil) {
         NSString *bundleIdentifier = [[[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleIdentifier"] stringByAppendingString:@".uuid"];
         
         NSDictionary *dict = [YQDeviceManager getData:bundleIdentifier];
-        if (!dict.elementIsEffectiveDictionary || dict.count == 0) {
+        if (dict == nil || dict.count == 0) {
             NSString *uuid = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
             dict = @{kUUIDKey:uuid};
             [YQDeviceManager save:bundleIdentifier data:dict];
