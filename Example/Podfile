@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PodExplainFiles_Example' do
+  pod 'PodExplainFiles', :path => '../'
+
+  target 'PodExplainFiles_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
