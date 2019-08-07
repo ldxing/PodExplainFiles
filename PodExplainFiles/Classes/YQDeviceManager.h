@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NSString *kNotificationName;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YQDeviceManager : NSObject

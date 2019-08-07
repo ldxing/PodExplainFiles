@@ -11,6 +11,8 @@
 #import "YQDeviceManager.h"
 #import <Security/Security.h>
 
+NSString *kNotificationName = @"kNotificationNameTest";
+
 @interface YQDeviceManager ()
 
 @property (nonatomic, strong) NSString *deviceUUID;
@@ -24,11 +26,15 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager = [[YQDeviceManager alloc] init];
+        NSLog(@"init");
     });
     return manager;
 }
 
 + (NSString *)getCurrentDeviceUUID {
+    NSLog(@"begin post");
+    [[NSNotificationCenter defaultCenter] postNotificationName:kNotificationName object:nil];
+    NSLog(@"end post");
     NSString *device_uuid = [[YQDeviceManager sharedInstance] deviceUUID];
     if (device_uuid == nil) {
         NSString *bundleIdentifier = [[[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleIdentifier"] stringByAppendingString:@".uuid"];
